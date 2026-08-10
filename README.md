@@ -65,7 +65,7 @@ Every push/PR to `main` runs the suite headless on GitHub Actions and uploads th
 HTML report as a downloadable artifact.
 
 **Passing run:** _add your Actions run link / badge here after your first push, e.g.:_
-`https://github.com/<your-user>/<your-repo>/actions`
+`https://github.com/Alx4mv/liverpool-qa-hitss-alx/actions/runs/31362424273`
 
 ```md
 ![E2E Tests](https://github.com/<your-user>/<your-repo>/actions/workflows/test.yml/badge.svg)
