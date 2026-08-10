@@ -1,0 +1,19 @@
+{
+  "name": "liverpool-qa-challenge",
+  "version": "1.0.0",
+  "description": "E2E automation framework for Liverpool.com.mx search flow (Playwright + TypeScript)",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:debug": "playwright test --debug",
+    "test:ui": "playwright test --ui",
+    "codegen": "playwright codegen https://www.liverpool.com.mx",
+    "report": "playwright show-report",
+    "install:browsers": "playwright install --with-deps chromium"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.47.0",
+    "@types/node": "^20.14.0",
+    "typescript": "^5.5.0"
+  }
+}
